@@ -1,0 +1,17 @@
+.conteudo h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.conteudo p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.conteudo a {
+    display: block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
