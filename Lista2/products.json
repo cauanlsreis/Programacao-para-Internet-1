@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":" ÓCULOS LARANJA",
+        "price": 50,
+        "image": "image/oculos_laranja.png"
+    },
+    {
+        "id": 2,
+        "name":" ÓCULOS ROXO",
+        "price": 50,
+        "image": "image/oculos_roxo.png"
+    },
+    {
+        "id": 3,
+        "name":" ÓCULOS SALMÃO",
+        "price": 60,
+        "image": "image/oculos_salmao.png"
+    },
+    {
+        "id": 4,
+        "name":" ÓCULOS DE SOL",
+        "price": 80,
+        "image": "image/oculos_desol.png"
+    },
+    {
+        "id": 5,
+        "name":" ÓCULOS PÉTALA",
+        "price": 60,
+        "image": "image/oculos_feio.png"
+    },
+    {
+        "id": 6,
+        "name":" ÓCULOS CORAÇÃO",
+        "price": 80,
+        "image": "image/oculos_coracao.png"
+    }
+]
