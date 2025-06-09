@@ -43,13 +43,14 @@ function verificarPalpite() {
 
     if (palpite === currentPokemon.name) {
         document.getElementById('feedback').textContent = 'Acertou! É ' + currentPokemon.name.charAt(0).toUpperCase() + currentPokemon.name.slice(1) + '!';
-        guessInput.disabled = true;
-        submitBtn.disabled = true;
-        nextBtn.disabled = false;
         pokemonImg.classList.add('revealed'); // revela a imagem
     } else {
-        document.getElementById('feedback').textContent = 'Errou! Tente novamente.';
+        document.getElementById('feedback').textContent = 'Errou!';
     }
+    // Desabilita campos após qualquer tentativa
+    guessInput.disabled = true;
+    submitBtn.disabled = true;
+    nextBtn.disabled = false;
 }
 
 submitBtn.addEventListener('click', verificarPalpite);
